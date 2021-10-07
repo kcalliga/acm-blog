@@ -49,7 +49,7 @@ metadata:
   name: binding-argo-development
   namespace: acm-gitops-policy
 placementRef:
-  name: all-openshift
+  name: local-cluster-placement
   kind: PlacementRule
   apiGroup: apps.open-cluster-management.io
 subjects:
