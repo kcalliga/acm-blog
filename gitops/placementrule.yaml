@@ -1,8 +1,8 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: placement-policy-gatekeeperoperator
-  namespace: gatekeeper-policy-install
+  name: local-cluster
+  namespace: acm-gitops-policy
 spec:
   clusterConditions:
   - status: "True"
