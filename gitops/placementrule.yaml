@@ -1,7 +1,7 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: local-cluster
+  name: local-cluster-placement
   namespace: acm-gitops-policy
 spec:
   clusterConditions:
